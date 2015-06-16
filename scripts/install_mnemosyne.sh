@@ -11,7 +11,7 @@ SCRIPTS=`dirname $0`
 bash $SCRIPTS/install_mongo.sh
 
 cd /opt/
-git clone https://github.com/threatstream/mnemosyne.git
+git clone https://github.com/ioannisl/mnemosyne.git
 cd mnemosyne
 virtualenv env
 . env/bin/activate
